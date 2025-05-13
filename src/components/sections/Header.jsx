@@ -1,3 +1,3 @@
 export default function Header({ children }) {
-  return <section className="bg-gradient-to-bottom py-10">{children}</section>;
+  return <header className="bg-gradient-to-bottom py-10">{children}</header>;
 }

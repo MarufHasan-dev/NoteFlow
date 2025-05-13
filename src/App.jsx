@@ -1,8 +1,15 @@
-import Header from "./components/sections/Header";
-import Hero from "./components/sections/Hero";
-import Navigation from "./components/sections/Navigation";
+// Page
 import Page from "./components/sections/Page";
+
+// Header
+import Header from "./components/sections/Header";
+import Navigation from "./components/sections/Navigation";
+import Hero from "./components/sections/Hero";
 import Reviews from "./components/sections/Reviews";
+
+// Main
+import Main from "./components/sections/Main";
+import Logos from "./components/sections/Logos";
 
 export default function App() {
   return (
@@ -12,6 +19,9 @@ export default function App() {
         <Hero />
         <Reviews />
       </Header>
+      <Main>
+        <Logos />
+      </Main>
     </Page>
   );
 }
