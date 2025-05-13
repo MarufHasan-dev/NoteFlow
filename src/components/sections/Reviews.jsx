@@ -6,7 +6,7 @@ export default function Reviews() {
       <ul className="flex">
         {reviews.map((review) => {
           return (
-            <li className="-ml-4 first:ml-0">
+            <li key={review.id} className="-ml-4 first:ml-0">
               <img
                 className="w-12 h-12 border-2 border-primary-100 rounded-full"
                 src={review.src}
