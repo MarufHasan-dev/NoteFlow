@@ -309,7 +309,7 @@ const testimonials = [
     makes it so easy to find what I need, even weeks after the fact.",
     src: new URL("../assets/headshots/img-7.webp", import.meta.url),
     name: "Emily Thompson",
-    title: "Senior Manager",
+    title: "Senior Marketing Manager",
   },
   {
     id: 2,

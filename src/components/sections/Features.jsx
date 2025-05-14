@@ -32,7 +32,7 @@ export default function Features() {
             </p>
           </div>
         </div>
-        <div className="relative grid grid-cols-2 items-center mb-20 gap-x-16">
+        <div className="relative grid grid-cols-2 items-center gap-x-16">
           <div className="max-w-lg justify-self-start">
             <h3 className="text-5xl/14 tracking-tighter font-semibold mb-8">
               Contextual Reminders

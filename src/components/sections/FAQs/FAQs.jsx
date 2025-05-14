@@ -21,7 +21,7 @@ export default function FAQs() {
   };
 
   return (
-    <section className="bg-gradient-to-bottom text-primary-50 mb-40">
+    <section className="bg-gradient-to-bottom text-primary-50">
       <div className="mx-auto w-full max-w-[90rem] px-25 py-32">
         <h2 className="text-6xl/18 font-semibold tracking-tighter text-center mb-8">
           Frequently Asked Questions
