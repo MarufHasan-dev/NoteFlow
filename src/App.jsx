@@ -15,6 +15,10 @@ import FAQs from "./components/sections/FAQs/FAQs";
 import Testimonials from "./components/sections/Testimonials/Testimonials";
 import Footer from "./components/sections/Footer";
 
+// Modal
+import Modal from "./components/sections/Modal/Modal";
+import SignUpModal from "./components/sections/Modal/SignUpModal";
+
 export default function App() {
   return (
     <Page>
@@ -30,6 +34,9 @@ export default function App() {
         <Testimonials />
       </Main>
       <Footer />
+      <Modal>
+        <SignUpModal />
+      </Modal>
     </Page>
   );
 }
