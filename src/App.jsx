@@ -18,25 +18,28 @@ import Footer from "./components/sections/Footer";
 // Modal
 import Modal from "./components/sections/Modal/Modal";
 import SignUpModal from "./components/sections/Modal/SignUpModal";
+import { ModalContextProvider } from "./context/ModalContext";
 
 export default function App() {
   return (
-    <Page>
-      <Header>
-        <Navigation />
-        <Hero />
-        <Reviews />
-      </Header>
-      <Main>
-        <Logos />
-        <Features />
-        <FAQs />
-        <Testimonials />
-      </Main>
-      <Footer />
-      <Modal>
-        <SignUpModal />
-      </Modal>
-    </Page>
+    <ModalContextProvider>
+      <Page>
+        <Header>
+          <Navigation />
+          <Hero />
+          <Reviews />
+        </Header>
+        <Main>
+          <Logos />
+          <Features />
+          <FAQs />
+          <Testimonials />
+        </Main>
+        <Footer />
+        <Modal modal="sign-up">
+          <SignUpModal />
+        </Modal>
+      </Page>
+    </ModalContextProvider>
   );
 }
