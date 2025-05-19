@@ -12,7 +12,7 @@ export default function Testimonials() {
 
   return (
     <section className="bg-gradient-to-top text-primary-50">
-      <div className="mx-auto max-w-[90rem] py-32 px-25">
+      <div className="mx-auto max-w-[90rem] py-32 px-25 max-xl:px-16 max-xl:py-24">
         <div>
           <p className="text-base/loose font-normal text-primary-1300 text-center content-center primary-glow w-[133px] h-12 bg-primary-500 rounded-full mx-auto">
             Testimonials

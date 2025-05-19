@@ -4,7 +4,7 @@ import { footerCols } from "../../utils/content";
 export default function Footer() {
   return (
     <footer className="bg-gradient-to-bottom ">
-      <div className="flex justify-between place-items-start px-25 py-32 max-w-[90rem] mx-auto">
+      <div className="flex justify-between place-items-start px-25 py-32 max-w-[90rem] mx-auto max-xl:px-16 max-xl:py-24">
         <a href="#" className="flex gap-4 items-center pr-20">
           <Logo
             width={4.5}
