@@ -3,7 +3,7 @@ import { footerCols } from "../../utils/content";
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-bottom ">
+    <footer className="bg-gradient-to-bottom">
       <div className="flex justify-between place-items-start px-25 py-32 max-w-[90rem] mx-auto max-xl:px-16 max-xl:py-24">
         <a href="#" className="flex gap-4 items-center pr-20">
           <Logo
@@ -25,7 +25,7 @@ export default function Footer() {
                 {col.links.map((link, i) => (
                   <li className="cursor-pointer group" key={i}>
                     <a
-                      className="text-primary-50 text-lg/8 font-light transition-properties group-hover:text-primary-500"
+                      className="text-primary-50 text-lg/8 font-light transition-properties group-hover:text-primary-500 max-xl:text-base/loose"
                       href="#"
                     >
                       {link}

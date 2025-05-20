@@ -17,22 +17,22 @@ export default function Testimonials() {
           <p className="text-base/loose font-normal text-primary-1300 text-center content-center primary-glow w-[133px] h-12 bg-primary-500 rounded-full mx-auto">
             Testimonials
           </p>
-          <h2 className="text-primary-50 text-6xl/18 font-semibold tracking-tighter content-center text-center my-6">
+          <h2 className="text-primary-50 text-6xl/18 font-semibold tracking-tighter content-center text-center my-6 max-xl:text-5xl/16">
             What our AI-powered <br />
             notetakers have to say
           </h2>
-          <p className="max-w-[550px] text-primary-100 text-xl/loose font-light text-center content-center mx-auto">
+          <p className="max-w-[550px] text-primary-100 text-xl/loose font-light text-center content-center mx-auto max-xl:text-lg/loose">
             NoteFlow has helped 1000’s supercharge their productivity with
             cutting edge AI note taking tools
           </p>
         </div>
-        <div className="py-20 grid grid-cols-3 gap-x-6">
+        <div className="py-20 grid grid-cols-3 gap-x-6 max-xl:gap-x-4">
           <TestimonialsList testimonials={test.slice(0, expanded ? 5 : 2)} />
           <TestimonialsList testimonials={test.slice(5, expanded ? 10 : 7)} />
           <TestimonialsList testimonials={test.slice(10, expanded ? 15 : 12)} />
         </div>
         <button
-          className="flex justify-center items-center text-primary-50 group hover:text-primary-1300 hover:bg-primary-50 text-base/loose font-light py-3 px-6 border-2 border-primary-50 rounded-full mx-auto transition-properties cursor-pointer"
+          className="flex justify-center items-center text-primary-50 group hover:text-primary-1300 hover:bg-primary-50 text-base/loose font-light py-4 px-8 border-2 border-primary-50 rounded-full mx-auto transition-properties cursor-pointer max-xl:px-6 max-xl:py-3"
           onClick={() => handleSeeMore()}
         >
           {expanded ? "Show less" : "Show more"}
