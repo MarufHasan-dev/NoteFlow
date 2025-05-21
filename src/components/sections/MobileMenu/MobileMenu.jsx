@@ -5,7 +5,7 @@ import { navigationLinks } from "../../../utils/content";
 export default function MobileMenu() {
   return (
     <motion.div className="bg-primary-1300/50 fixed top-0 bottom-0 left-0 right-0 z-50 flex justify-end px-6 pl-28 backdrop-blur-sm">
-      <motion.div className="bg-primary-1400 flex flex-col justify-between basis-80 my-6 rounded-2xl py-8 px-6">
+      <motion.div className="bg-primary-1400 bg-[url('./assets/Noise.webp')] flex flex-col justify-between basis-80 my-6 rounded-2xl py-8 px-6 bg-repeat">
         <div>
           <button className="w-9.5 h-9.5 border-2 border-primary-50 items-center justify-center flex rounded-xl p-1.5 cursor-pointer hover:bg-primary-50 transition-properties group mb-16">
             <Close
