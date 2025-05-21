@@ -20,6 +20,9 @@ import Modal from "./components/sections/Modal/Modal";
 import SignUpModal from "./components/sections/Modal/SignUpModal";
 import { ModalContextProvider } from "./context/ModalContext";
 
+// Mobile Menu
+import MobileMenu from "./components/sections/MobileMenu/MobileMenu";
+
 export default function App() {
   return (
     <ModalContextProvider>
@@ -39,6 +42,7 @@ export default function App() {
         <Modal modal="sign-up">
           <SignUpModal />
         </Modal>
+        <MobileMenu />
       </Page>
     </ModalContextProvider>
   );
