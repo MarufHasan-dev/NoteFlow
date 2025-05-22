@@ -8,7 +8,7 @@ export default function MobileMenuIcon() {
   return (
     <motion.button
       animate={{ rotate: mobileMenuOpened ? 90 : 0 }}
-      className="justify-center items-center max-lg:flex hidden"
+      className="justify-center items-center max-lg:flex hidden cursor-pointer"
       onClick={() => setMobileMenuOpened(true)}
     >
       <Menu className="stroke-primary-50 h-7 w-7" width={2} />
