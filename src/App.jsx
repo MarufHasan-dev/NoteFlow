@@ -22,28 +22,31 @@ import { ModalContextProvider } from "./context/ModalContext";
 
 // Mobile Menu
 import MobileMenu from "./components/sections/MobileMenu/MobileMenu";
+import MobileMenuContextProvider from "./context/MobileMenuContext";
 
 export default function App() {
   return (
-    <ModalContextProvider>
-      <Page>
-        <Header>
-          <Navigation />
-          <Hero />
-          <Reviews />
-        </Header>
-        <Main>
-          <Logos />
-          <Features />
-          <FAQs />
-          <Testimonials />
-        </Main>
-        <Footer />
-        <Modal modal="sign-up">
-          <SignUpModal />
-        </Modal>
-        <MobileMenu />
-      </Page>
-    </ModalContextProvider>
+    <MobileMenuContextProvider>
+      <ModalContextProvider>
+        <Page>
+          <Header>
+            <Navigation />
+            <Hero />
+            <Reviews />
+          </Header>
+          <Main>
+            <Logos />
+            <Features />
+            <FAQs />
+            <Testimonials />
+          </Main>
+          <Footer />
+          <Modal modal="sign-up">
+            <SignUpModal />
+          </Modal>
+          <MobileMenu />
+        </Page>
+      </ModalContextProvider>
+    </MobileMenuContextProvider>
   );
 }
