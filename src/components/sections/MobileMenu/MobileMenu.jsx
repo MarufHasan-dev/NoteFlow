@@ -15,6 +15,9 @@ export default function MobileMenu() {
 
   return (
     <motion.div
+      onClick={(e) =>
+        e.currentTarget === e.target && setMobileMenuOpened(false)
+      }
       className="bg-primary-1300/50 fixed top-0 bottom-0 left-0 right-0 z-50 flex justify-end px-6 pl-28 backdrop-blur-sm"
       animate={mobileMenuOpened ? "visible" : "hidden"}
       variants={{
