@@ -24,7 +24,7 @@ export default function FAQ({
             alt={questions.alt}
           />
         </div>
-        <p className="text-primary-50 font-medium text-xl/loose tracking-tight">
+        <p className="text-primary-50 font-medium text-xl/loose tracking-tight max-lg:text-lg/8 maxlg:font-semibold">
           {questions.question}
         </p>
         <div className="ml-auto p-4 h-12 w-12 shrink-0">
@@ -38,7 +38,7 @@ export default function FAQ({
       </button>
 
       <motion.p
-        className="text-primary-100 text-lg/8 font-light pr-14 pl-20"
+        className="text-primary-100 text-lg/8 font-light pr-14 pl-20 max-lg:text-base/loose"
         initial={{ opacity: 0, maxHeight: 0, visibility: "hidden" }}
         animate={
           activeQuestion === questions.id
