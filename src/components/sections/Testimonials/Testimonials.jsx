@@ -12,21 +12,21 @@ export default function Testimonials() {
 
   return (
     <section className="bg-gradient-to-top text-primary-50">
-      <div className="mx-auto max-w-[90rem] py-32 px-25 max-xl:px-16 max-xl:py-24">
+      <div className="mx-auto max-w-[90rem] py-32 px-25 max-xl:px-16 max-xl:py-24 max-lg:px-8">
         <div>
           <p className="text-base/loose font-normal text-primary-1300 text-center content-center primary-glow w-[133px] h-12 bg-primary-500 rounded-full mx-auto">
             Testimonials
           </p>
-          <h2 className="text-primary-50 text-6xl/18 font-semibold tracking-tighter content-center text-center my-6 max-xl:text-5xl/16">
+          <h2 className="text-primary-50 text-6xl/18 font-semibold tracking-tighter content-center text-center my-6 max-xl:text-5xl/16 max-lg:text-4xl/10 max-lg:tracking-tight max-lg:my-4">
             What our AI-powered <br />
             notetakers have to say
           </h2>
-          <p className="max-w-[550px] text-primary-100 text-xl/loose font-light text-center content-center mx-auto max-xl:text-lg/loose">
+          <p className="max-w-[550px] text-primary-100 text-xl/loose font-light text-center content-center mx-auto max-xl:text-lg/loose max-lg:text-base/8">
             NoteFlow has helped 1000’s supercharge their productivity with
             cutting edge AI note taking tools
           </p>
         </div>
-        <div className="py-20 grid grid-cols-3 gap-x-6 max-xl:gap-x-4">
+        <div className="py-15 grid grid-cols-3 gap-x-6 max-xl:gap-x-4 max-lg:grid-cols-2">
           <TestimonialsList testimonials={test.slice(0, expanded ? 5 : 2)} />
           <TestimonialsList testimonials={test.slice(5, expanded ? 10 : 7)} />
           <TestimonialsList testimonials={test.slice(10, expanded ? 15 : 12)} />
