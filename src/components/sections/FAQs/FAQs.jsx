@@ -23,10 +23,10 @@ export default function FAQs() {
   return (
     <section className="bg-gradient-to-bottom text-primary-50">
       <div className="mx-auto w-full max-w-[90rem] px-25 py-32 max-xl:px-16 max-xl:py-24 max-lg:px-8 max-md:px-6">
-        <h2 className="text-6xl/18 font-semibold tracking-tighter text-center mb-8 max-xl:text-5xl/16 max-xl:mb-6 max-lg:text-4xl/10 max-lg:tracking-tight max-md:mb-4 max-md:text-left">
+        <h2 className="text-6xl/18 font-semibold tracking-tighter text-center mb-8 max-xl:text-5xl/16 max-xl:mb-6 max-lg:text-4xl/10 max-lg:tracking-tight max-md:mb-4 max-md:text-left max-sm:text-3xl/9">
           Frequently Asked Questions
         </h2>
-        <p className="text-primary-100 text-xl/loose font-light text-center max-lg:text-base/loose max-md:text-left">
+        <p className="text-primary-100 text-xl/loose font-light text-center max-lg:text-base/loose max-md:text-left max-sm:hidden">
           The most commonly asked questions about NoteFlow.{" "}
           <br className="max-md:hidden" />
           Have any other questions?{" "}

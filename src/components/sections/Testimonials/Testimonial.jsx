@@ -4,7 +4,7 @@ import Star from "../../icons/Star";
 export default function Testimonial({ test }) {
   return (
     <motion.li
-      className="bg-primary-1300 rounded-2xl py-10 px-8 max-xl:px-7 max-xl:py-8 "
+      className="bg-primary-1300 rounded-2xl py-10 px-8 max-xl:px-7 max-xl:py-8 max-sm:px-6"
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: "100%" }}

@@ -33,8 +33,8 @@ export default function SignUpModal() {
   }
 
   return (
-    <section className="grid max-w-3xl grid-cols-2">
-      <div className="bg-[url('./././assets/Noise.webp')] bg-primary-1300 flex flex-col justify-center items-center gap-y-4 p-10 bg-repeat max-md:p-6">
+    <section className="grid max-w-3xl grid-cols-2 max-sm:grid-cols-1">
+      <div className="bg-[url('./././assets/Noise.webp')] bg-primary-1300 flex flex-col justify-center items-center gap-y-4 p-10 bg-repeat max-md:px-6 max-md:py-8 max-sm:hidden">
         <h4 className="text-primary-50 font-bold text-4xl/12 tracking-tight text-center max-md:text-3xl/10">
           Lets Get You Signed Up
         </h4>
@@ -42,7 +42,7 @@ export default function SignUpModal() {
           No charges, no fees. Get note taking in minutes!
         </p>
       </div>
-      <div className="flex flex-col gap-y-24 p-10 bg-primary-1400 bg-[url('./././assets/Noise.webp')] bg-repeat max-md:p-6">
+      <div className="flex flex-col gap-y-24 p-10 bg-primary-1400 bg-[url('./././assets/Noise.webp')] bg-repeat max-md:px-6 max-md:py-8 max-sm:gap-y-16 max-sm:max-w-xl max-sm:w-full">
         <button
           className="box-border w-11 h-11 border-2 border-primary-50 rounded-xl flex justify-center items-center hover:bg-primary-50 group transition-properties cursor-pointer item ml-auto max-md:w-9 max-md:h-9"
           onClick={() => setActiveModal("")}
