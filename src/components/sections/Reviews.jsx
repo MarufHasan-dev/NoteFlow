@@ -2,7 +2,7 @@ import { reviews } from "../../utils/content";
 
 export default function Reviews() {
   return (
-    <section className="mx-auto flex items-center gap-4 flex-wrap max-w-[90rem] px-25 max-xl:px-16 max-xl:gap-3 max-lg:px-8 max-lg:gap-2">
+    <section className="mx-auto flex items-center gap-4 flex-wrap max-w-[90rem] px-25 max-xl:px-16 max-xl:gap-3 max-lg:px-8 max-lg:gap-2 max-md:px-6">
       <ul className="flex">
         {reviews.map((review) => {
           return (

@@ -34,29 +34,29 @@ export default function SignUpModal() {
 
   return (
     <section className="grid max-w-3xl grid-cols-2">
-      <div className="bg-[url('./././assets/Noise.webp')] bg-primary-1300 flex flex-col justify-center items-center gap-y-4 p-10 bg-repeat">
-        <h4 className="text-primary-50 font-bold text-4xl/12 tracking-tight text-center">
+      <div className="bg-[url('./././assets/Noise.webp')] bg-primary-1300 flex flex-col justify-center items-center gap-y-4 p-10 bg-repeat max-md:p-6">
+        <h4 className="text-primary-50 font-bold text-4xl/12 tracking-tight text-center max-md:text-3xl/10">
           Lets Get You Signed Up
         </h4>
-        <p className="text-lg/8 font-light text-primary-100 text-center">
+        <p className="text-lg/8 font-light text-primary-100 text-center max-md:text-base/loose max-md:leading-6">
           No charges, no fees. Get note taking in minutes!
         </p>
       </div>
-      <div className="flex flex-col gap-y-24 p-10 bg-primary-1400 bg-[url('./././assets/Noise.webp')] bg-repeat">
+      <div className="flex flex-col gap-y-24 p-10 bg-primary-1400 bg-[url('./././assets/Noise.webp')] bg-repeat max-md:p-6">
         <button
-          className="box-border w-11 h-11 border-2 border-primary-50 rounded-xl flex justify-center items-center hover:bg-primary-50 group transition-properties cursor-pointer item ml-auto"
+          className="box-border w-11 h-11 border-2 border-primary-50 rounded-xl flex justify-center items-center hover:bg-primary-50 group transition-properties cursor-pointer item ml-auto max-md:w-9 max-md:h-9"
           onClick={() => setActiveModal("")}
         >
           <Close
             width={2}
-            className="stroke-primary-50 group-hover:stroke-primary-1400 transition-properties"
+            className="stroke-primary-50 group-hover:stroke-primary-1400 transition-properties max-md:h-4 max-md:w-4"
           />
         </button>
         <div className="flex flex-col gap-y-6">
-          <label className="text-primary-50 font-bold text-lg/8 tracking-tight flex flex-col items-start gap-y-2">
+          <label className="text-primary-50 font-bold text-lg/8 tracking-tight flex flex-col items-start gap-y-2 max-md:font-normal">
             Email
             <input
-              className="text-primary-1500 text-base/loose font-light bg-primary-75 rounded-full py-4 px-8 placeholder:text-primary-1500/20 w-full"
+              className="text-primary-1500 text-base/loose font-light bg-primary-75 rounded-full py-4 px-8 placeholder:text-primary-1500/20 w-full max-md:py-3 max-md:px-6"
               placeholder="janedone@gmail.com"
               name="email"
               type="email"
@@ -64,10 +64,10 @@ export default function SignUpModal() {
               value={inputs.email}
             />
           </label>
-          <label className="text-primary-50 font-bold text-lg/8 tracking-tight flex flex-col items-start gap-y-2">
+          <label className="text-primary-50 font-bold text-lg/8 tracking-tight flex flex-col items-start gap-y-2 max-md:font-normal">
             Password
             <input
-              className="text-primary-1500 text-base/loose font-light bg-primary-75 rounded-full py-4 px-8 placeholder:text-primary-1500/20 w-full"
+              className="text-primary-1500 text-base/loose font-light bg-primary-75 rounded-full py-4 px-8 placeholder:text-primary-1500/20 w-full max-md:py-3 max-md:px-6"
               placeholder="*************"
               name="password"
               type="password"
@@ -93,7 +93,7 @@ export default function SignUpModal() {
             </p>
           </div>
           <button
-            className="bg-primary-500 rounded-full text-primary-1300 font-normal text-lg/8 tracking-tight py-4 px-8 w-full cursor-pointer primary-glow-hover transition-properties hover:font-semibold"
+            className="bg-primary-500 rounded-full text-primary-1300 font-normal text-lg/8 tracking-tight py-4 px-8 w-full cursor-pointer primary-glow-hover transition-properties hover:font-semibold max-md:px-6 max-md:py-3 max-md:text-base/loose"
             onClick={handleSubmit}
           >
             Get Started

@@ -7,10 +7,12 @@ export default function Navigation() {
   const { setActiveModal } = useModalContext();
 
   return (
-    <nav className="text-primary-50 mx-auto flex h-16 w-full max-w-[90rem] items-center justify-between px-24 max-xl:px-16 text-lg/8 font-light max-xl:text-base/loose max-lg:px-8">
-      <a className="flex items-center gap-x-3" href="#">
-        <Logo className="h-6" width={5} />
-        <p className="text-xl font-bold tracking-tight">NoteFlow</p>
+    <nav className="text-primary-50 mx-auto flex h-16 w-full max-w-[90rem] items-center justify-between px-24 max-xl:px-16 text-lg/8 font-light max-xl:text-base/loose max-lg:px-8 max-md:px-6">
+      <a className="flex items-center gap-x-3 max-md:gap-x-2" href="#">
+        <Logo className="h-6 max-md:h-5" width={5} alt="NoteFlow logo icon" />
+        <p className="text-xl font-bold tracking-tight max-md:text-lg/8">
+          NoteFlow
+        </p>
       </a>
       <ul className="flex items-center gap-x-8 max-xl:gap-x-6 max-lg:hidden">
         {navigationLinks.map((link) => {

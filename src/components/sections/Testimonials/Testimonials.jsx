@@ -12,7 +12,7 @@ export default function Testimonials() {
 
   return (
     <section className="bg-gradient-to-top text-primary-50">
-      <div className="mx-auto max-w-[90rem] py-32 px-25 max-xl:px-16 max-xl:py-24 max-lg:px-8">
+      <div className="mx-auto max-w-[90rem] py-32 px-25 max-xl:px-16 max-xl:py-24 max-lg:px-8 max-md:px-6">
         <div>
           <p className="text-base/loose font-normal text-primary-1300 text-center content-center primary-glow w-[133px] h-12 bg-primary-500 rounded-full mx-auto">
             Testimonials
@@ -21,7 +21,7 @@ export default function Testimonials() {
             What our AI-powered <br />
             notetakers have to say
           </h2>
-          <p className="max-w-[550px] text-primary-100 text-xl/loose font-light text-center content-center mx-auto max-xl:text-lg/loose max-lg:text-base/8">
+          <p className="max-w-[550px] text-primary-100 text-xl/loose font-light text-center content-center mx-auto max-xl:text-lg/loose max-lg:text-base/8 max-md:px-4 max-md:max-w-max">
             NoteFlow has helped 1000’s supercharge their productivity with
             cutting edge AI note taking tools
           </p>
