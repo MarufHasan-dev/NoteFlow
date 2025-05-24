@@ -33,7 +33,7 @@ export default function SignUpModal() {
   }
 
   return (
-    <section className="grid max-w-3xl grid-cols-2 max-sm:grid-cols-1">
+    <section className="grid max-w-3xl grid-cols-2 max-sm:w-96 max-sm:grid-cols-1 max-sm:gap-y-8 max-sm:gap-x-0 max-sm:mx-auto">
       <div className="bg-[url('./././assets/Noise.webp')] bg-primary-1300 flex flex-col justify-center items-center gap-y-4 p-10 bg-repeat max-md:px-6 max-md:py-8 max-sm:hidden">
         <h4 className="text-primary-50 font-bold text-4xl/12 tracking-tight text-center max-md:text-3xl/10">
           Lets Get You Signed Up
@@ -76,7 +76,7 @@ export default function SignUpModal() {
             />
           </label>
         </div>
-        <div className="flex flex-col gap-y-4">
+        <div className="flex flex-col gap-y-4 max-sm:gap-y-3">
           <div
             className="flex items-center justify-center gap-x-2"
             onClick={() => setChecked((prev) => !prev)}
