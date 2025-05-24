@@ -6,7 +6,7 @@ export default function Features() {
     <section className="bg-primary-1500 overflow-hidden bg-[url(../src/assets/Noise.webp)] bg-repeat">
       <div className="relative text-primary-50 mx-auto max-w-[90rem] px-25 py-32 max-xl:px-16 max-xl:py-24 max-lg:px-8 max-md:px-6">
         <div className="bg-primary-1200/50 absolute top-[50%] left-full h-[50rem] w-[50rem] max-lg:h-[30rem] max-lg:bg-primary-1200 max-lg:w-[30rem] -translate-[50%] rounded-full opacity-100 blur-[20rem]" />
-        <h2 className="relative text-6xl/tight font-semibold tracking-tighter text-center mb-28 max-xl:text-5xl/tight max-xl:mb-18 max-lg:text-4xl/10 max-lg:tracking-tight max-sm:text-3xl/9">
+        <h2 className="relative text-6xl/tight font-semibold tracking-tighter text-center mb-28 max-xl:text-5xl/tight max-xl:mb-18 max-lg:text-4xl/10 max-lg:tracking-tighter max-sm:text-3xl/9">
           All The Tools You Need to{" "}
           <span className="text-primary-500 primary-glow">Supercharge</span>{" "}
           Your Note Taking

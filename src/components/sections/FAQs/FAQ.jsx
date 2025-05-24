@@ -17,14 +17,14 @@ export default function FAQ({
         className="w-full flex cursor-pointer items-center"
         onClick={() => handleQuestionClick(questions.id)}
       >
-        <div className="border-primary-50 mr-6 border-2 rounded-xl p-3.5 max-sm:p-2.5">
+        <div className="border-primary-50 mr-6 border-2 rounded-xl p-3.5 max-sm:p-2.5 max-sm:mr-4">
           <questions.Icon
             width={2}
             className="stroke-primary-50"
             alt={questions.alt}
           />
         </div>
-        <p className="text-primary-50 font-medium text-xl/loose tracking-tight max-lg:text-lg/8 max-lg:font-semibold text-left max-sm:text-base/6">
+        <p className="text-primary-50 font-medium text-xl/loose tracking-tight max-lg:text-lg/8 max-lg:font-semibold text-left max-sm:text-base/6 max-sm:font-medium">
           {questions.question}
         </p>
         <div className="ml-auto p-4 h-12 w-12 shrink-0">
@@ -38,7 +38,7 @@ export default function FAQ({
       </button>
 
       <motion.p
-        className="text-primary-100 text-lg/8 font-light pr-14 pl-20 max-lg:text-base/loose max-sm:pl-0 max-sm:pr-0 max-sm:text-base/loose"
+        className="text-primary-100 text-lg/8 font-light pr-14 pl-20 max-lg:text-base/loose max-sm:px-0 max-sm:text-base/loose"
         initial={{ opacity: 0, maxHeight: 0, visibility: "hidden" }}
         animate={
           activeQuestion === questions.id

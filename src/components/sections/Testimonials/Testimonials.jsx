@@ -14,7 +14,7 @@ export default function Testimonials() {
     <section className="bg-gradient-to-top text-primary-50">
       <div className="mx-auto max-w-[90rem] py-32 px-25 max-xl:px-16 max-xl:py-24 max-lg:px-8 max-md:px-6">
         <div>
-          <p className="text-base/loose font-normal text-primary-1300 text-center content-center primary-glow w-[133px] h-12 bg-primary-500 rounded-full mx-auto max-sm:">
+          <p className="text-base/loose font-normal text-primary-1300 text-center content-center primary-glow w-[133px] h-12 bg-primary-500 rounded-full mx-auto">
             Testimonials
           </p>
           <h2 className="text-primary-50 text-6xl/18 font-semibold tracking-tighter content-center text-center my-6 max-xl:text-5xl/16 max-lg:text-4xl/10 max-lg:tracking-tight max-lg:my-4 max-sm:text-3xl/9">

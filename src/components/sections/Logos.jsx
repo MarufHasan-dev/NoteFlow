@@ -7,7 +7,7 @@ export default function Logos() {
         <p className="text-primary-50 text-xl/loose font-light m-auto mb-20 max-xl:mb-16 text-center max-xl:text-lg/8">
           Organizations powered by <span className="font-bold">NoteFlow</span>
         </p>
-        <div className="flex flex-col gap-y-16 max-md:flex-row max-md:items-center max-md:justify-around max-sm:justify-between">
+        <div className="flex flex-col gap-y-16 max-md:flex-row max-md:items-center max-md:justify-around max-sm:justify-between max-sm:gap-x-14">
           <ul className="flex max-md:flex-col flex-wrap justify-between max-md:gap-y-16">
             {logos.slice(0, 4).map((logo) => {
               return (

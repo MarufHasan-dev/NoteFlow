@@ -21,7 +21,7 @@ export default function Hero() {
           onClick={() => setActiveModal("sign-up")}
         >
           <p className="text-lg/8 max-xl:text-base/loose">Get Started</p>
-          <div className="w-5 max-xl:w-4">
+          <div className="w-5 max-xl:w-4 max-sm:hidden">
             <ArrowRightLine
               alt="arrow right line"
               className="stroke-primary-1300 transition-properties inline ease-in-out -mr-3 w-0 opacity-0 group-hover:opacity-100 group-hover:w-3"
@@ -36,7 +36,7 @@ export default function Hero() {
       <div className="relative">
         <div className="bg-primary-1300 absolute top-0 right-0 bottom-0 left-0 rounded-full blur-3xl" />
         <img
-          className="relative max-h-[30rem] justify-self-end max-md:max-h-auto max-md:max-w-[90%] max-md:justify-self-center"
+          className="relative max-h-[30rem] justify-self-end max-md:max-h-auto max-md:max-w-[90%] max-md:justify-self-center max-sm:max-w-full"
           src={HeroGraphic}
           alt="hero graphic showing note summarizer functionality"
         />
